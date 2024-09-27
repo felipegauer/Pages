@@ -5,7 +5,7 @@ import Page2 from "./Page2"
 function App() {
   return (<>
   <Router>
-    <Routes>
+    <Routes >
       <Route path="/Pages/" element={<Page1/>}/>
       <Route path="/Pages/love" element={<Page2/>}/>
     </Routes>
